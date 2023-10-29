@@ -1,0 +1,311 @@
+<html>
+
+<head>
+    <title> Kamil OZDEMIR </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #183156;
+            height: 70px;
+
+        }
+
+
+        .navbar-item {
+            margin: 10px;
+            color: #333333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 30;
+            color: aliceblue;
+        }
+
+
+        .navbar-name {
+            flex-grow: 1;
+            margin-left: 20px;
+            font-size: 30;
+            font-weight: 100;
+            color: aliceblue;
+        }
+
+
+        .header {
+            height: 100px;
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-position: center;
+            border-radius: 20;
+        }
+
+        .body {
+            background-image: url("./assests/bg.jpg");
+
+            background-size: cover;
+
+            background-repeat: no-repeat;
+
+            flex: 1;
+
+
+        }
+
+        .footer {
+            background-color: #183156;
+            bottom: 0;
+            width: 100%;
+            padding: 20px;
+            flex-direction: row;
+        }
+    </style>
+</head>
+
+<body class="body">
+
+    <div class="header">
+
+        <div class="navbar">
+
+            <div class="navbar-name" style="font-family: fantasy; font-size: 35; color: aliceblue;">KAMİL ÖZDEMİR
+            </div>
+            <img style="width: 40;" src="./assests/home.png">
+            <a href="index.html" class="navbar-item"> Anasayfa</a>
+            <a href="#hakkimda" class="navbar-item">Hakkımda</a>
+            <a href="#yetenekler" class="navbar-item">Yetenekler</a>
+            <a href="#iletisim" class="navbar-item">İletişim</a>
+        </div>
+    </div>
+
+    <div style="color: aliceblue; text-align: left; margin-left: 10%;">
+        <a style="font-size: 60; font-family: fantasy;"> Merhaba <img src="./assests/hello.png"
+                style="width: 50; height: 50;"> </a>
+        <div style="color: aliceblue; flex-direction: row;">
+            <P style="font-size: 50; display: inline-block; margin-right: 20; font-family: fantasy"> Ben</P>
+            <P
+                style="font-size: 50; display: inline-block; margin-right: 20; color: rgb(35, 16, 73); font-weight: bold; font-family: fantasy">
+                Kamil.</P>
+            <P style="font-size: 50; display: inline-block; margin-right: 20; font-family: fantasy"> Sayfama </P>
+            <P style="font-size: 50; display: inline-block; font-family: fantasy"> Hoşgeldiniz </P>
+        </div>
+    </div>
+
+    <div style="margin-left: 10%; margin-top: 3%;">
+        <a href="#iletisim" class="btn btn-warning btn-lg mr-5" role="button"
+            style="font-weight: 200; font-family: fantasy; width: 120;">Iletisim</a>
+        <a href="https://github.com/">
+            <img style="width: 80; height: 80;" src="./assests//github.png">
+        </a>
+        <a href="mailto:kmlzdmr01@hotmail.com">
+            <img style="width: 60; height: 60;" src="./assests/email1.png">
+        </a>
+    </div>
+
+
+
+    <section id="hakkimda" style="margin-bottom: 5%;">
+        <div style="text-align: center; margin-top: 5%;">
+            <h1 style="color: aliceblue; font-size: 60; font-family: fantasy; ">Hakkımda</h1>
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center; margin-top: 2%;">
+            <div>
+                <h1 style="margin-left: 18%; color: aliceblue;"> Ben Kamil </h1>
+                <p style="color: aliceblue; margin-left: 18%; margin-right: 18%; font-size: 20"> Merhaba, ben Kamil
+                    ÖZDEMİR. Bilgisayar mühendisliği 3. sınıf öğrencisiyim. Süleyman Demirel Üniversitesi’nde okuyorum.
+                    Android Programlama ile ilgileniyorum. Bu alana cross platform bir framework olan React-Native ile
+                    başladım, şu anda ise
+                    Kotlin ile geliştirme yapıyorum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div style="height: 1; width: 66%; background-color: aliceblue; margin-left: 17%; margin-right: 17%;">
+
+    </div>
+
+    <section id="yetenekler" style="margin-top: 5%;">
+        <div style="text-align: center;">
+            <h1 style="color: aliceblue; font-size: 60; font-family: fantasy; ">Yetenekler</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="margin-bottom: 5%;">
+
+                    <div>
+                        <img src="./assests/yeni/html-5.png"
+                            style="height: 80; width: 80; margin-left: 20%; margin-right: 9;">
+                        <p style="display: inline-block; color: aliceblue; font-size: 16; font-weight: 800;"> HTML 5
+                        </p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar  progress-bar-striped bg-danger" role="progressbar"
+                                style="width: 75%; color: black; font-weight: bold;" aria-valuenow="35"
+                                aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col" style="margin-bottom: 5%;">
+
+                    <div>
+                        <img src="./assests/yeni/css-3.png"
+                            style="height: 80; width: 80; margin-left: 20%; margin-right: 9;">
+                        <p style="display: inline-block; color: aliceblue; font-size: 16; font-weight: 800;"> Css </p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar  progress-bar-striped" role="progressbar"
+                                style="width: 75%; color: black; font-weight: bold;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col" style="margin-bottom: 5%;">
+
+                    <div>
+                        <img src="./assests/yeni/java-script.png"
+                            style="height: 70; width: 70; margin-left: 20%; margin-right: 9;">
+                        <p style="display: inline-block; color: aliceblue; font-size: 16; font-weight: 800;"> Javascript
+                        </p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar  progress-bar-striped bg-warning" role="progressbar"
+                                style="width: 90%; color: black; font-weight: bold;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col" style="margin-bottom: 5%;">
+
+                    <div>
+                        <img src="./assests/icons8-kotlin-48.png"
+                            style="height: 70; width: 70; margin-left: 20%; margin-right: 9;">
+                        <p style="display: inline-block; color: aliceblue; font-size: 16; font-weight: 800;"> Kotlin
+                        </p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar  progress-bar-striped bg-secondary" role="progressbar"
+                                style="width: 45%; color: black; font-weight: bold;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">45%</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w-100"> </div>
+
+                <div class="col" style="margin-bottom: 5%;">
+
+                    <div>
+                        <img src="./assests/yeni/science.png"
+                            style="height: 80; width: 80; margin-left: 20%; margin-right: 9;">
+                        <p style="display: inline-block; color: aliceblue; font-size: 16; font-weight: 800;">
+                            React-Native
+                        </p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar  progress-bar-striped bg-info" role="progressbar"
+                                style="width: 90%; color: black; font-weight: bold;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col" style="margin-bottom: 5%;">
+
+                    <div>
+                        <img src="./assests/yeni/java.png"
+                            style="height: 80; width: 80; margin-left: 20%; margin-right: 9;">
+                        <p style="display: inline-block; color: aliceblue; font-size: 16; font-weight: 800;"> Java </p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar  progress-bar-striped bg-dark" role="progressbar"
+                                style="width: 50%; color: black; font-weight: bold;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <div
+        style="height: 1; width: 66%; background-color: aliceblue; margin-left: 17%; margin-right: 17%; margin-top: 10%;">
+
+    </div>
+
+
+    <section id="iletisim" style="margin-bottom: 10%;">
+        <div style="text-align: center; margin-top: 10%;">
+            <h1 style="color: aliceblue; font-size: 60; font-family: fantasy; ">İletişim</h1>
+        </div>
+        <form style="margin-left: 30%; margin-right: 30%;">
+            <div class="form-group">
+                <label for="exampleInputEmail1" style="color: aliceblue; font-size: medium;"> Email Adresi</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Email Giriniz...">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" style="color: aliceblue; font-size: medium;">Şifre</label>
+                <input type="password" class="form-control" id="exampleInputPassword1"
+                    placeholder="Sifrenizi Giriniz...">
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Mesaj" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button href="#iletisim" class="btn btn-warning btn-lg mr-5" role="button"
+                style="font-weight: 200; font-family: fantasy; width: 120;"> Gönder </button>
+        </form>
+
+    </section>
+
+
+    <footer class="footer">
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm" style="color: aliceblue;">
+                    <img src="./assests/copyright.png" width="20" height="20" style="display: inline-block;">
+                    copyright
+                </div>
+                <div class="col-sm">
+                    <img src="./assests/email.png" width="20" height="20" style="display: inline-block;">
+                </div>
+                <div class="col-sm">
+                    <img src="./assests/github2.png" width="30" height="30" style="display: inline-block;">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+
+</html>
